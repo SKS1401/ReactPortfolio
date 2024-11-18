@@ -1,0 +1,19 @@
+/* ContactForm.css */
+#form {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .input-field {
+    width: 500px;
+    margin-bottom: 10px;
+  }
+  
+  .form-button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,21 @@
+/* Projects.css */
+.project-tile {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .project-tile .logo {
+    font-weight: bold;
+  }
+  
+  .project-tile .text {
+    margin-top: 10px;
+  }
+  
+  .p {
+    display: inline-block;
+    margin-right: 10px;
+    color: orange;
+  }
+  

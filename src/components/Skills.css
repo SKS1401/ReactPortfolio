@@ -1,0 +1,18 @@
+/* Skills.css */
+.skill-box {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .sub-box {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .sub-box h4 {
+    margin: 0;
+  }
+  

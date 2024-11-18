@@ -1,0 +1,16 @@
+
+#welcome-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+  }
+  
+  .text-box {
+    width: 50%;
+  }
+  
+  .dp-box img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
