@@ -1,21 +1,75 @@
-/* Projects.css */
-.project-tile {
-    background-color: #f4f4f4;
+#projects {
+    padding: 40px 20px;
+    background-color: #001f3f; /* Navy blue background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    height: 100VH;
+  }
+  
+  #projects h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #20c997; /* Turquoise for the heading */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Grid container for project tiles */
+  .skill-box {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  /* Individual project tiles */
+  .sub-box{
+    height: fit-content;
+    width: 300px;
+    background: linear-gradient(145deg, #028090, #05668d); /* Gradient teal and turquoise */
     padding: 20px;
-    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #ffffff;
   }
   
-  .project-tile .logo {
+  /* Hover effects for project tiles */
+  .sub-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Title of the project */
+  .logo {
+    font-size: 24px;
     font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #f0f0f0; /* Soft white */
   }
   
-  .project-tile .text {
-    margin-top: 10px;
+  /* Description text for the project */
+  .text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #d1e8e2; /* Soft turquoise */
   }
   
+  /* Links (GitHub, Live Link) */
   .p {
-    display: inline-block;
+    color: #20c997; /* Turquoise links */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
     margin-right: 10px;
-    color: orange;
   }
   
+  .p:hover {
+    color: #02a4a8; /* Slightly darker turquoise */
+    text-decoration: underline;
+  }

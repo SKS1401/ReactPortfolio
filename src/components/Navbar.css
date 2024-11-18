@@ -1,31 +1,40 @@
-
 #navbar {
-  background-color: #333;
+  height: 80px;
+  background-color: 	#046169;
   color: white;
-  padding: 10px 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 50px;
+  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-#navbar h2 {
-  margin: 0;
+h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+h2:hover {
+  font-size: 32px;
+  color: orange;
 }
 
 ul {
-  list-style-type: none;
-  padding: 0;
+  list-style: none;
   display: flex;
-  justify-content: space-around;
+  gap: 30px;
+  font-size: 20px;
 }
 
-ul li {
-  display: inline;
-}
-
-ul li a {
+a {
+  text-decoration: none;
   color: white;
-  padding: 10px;
   transition: color 0.3s;
 }
 
-ul li a:hover {
-  color: orange;
+.link :hover {
+  font-size: larger;
 }

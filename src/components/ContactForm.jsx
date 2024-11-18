@@ -4,8 +4,8 @@ import './ContactForm.css';
 const ContactForm = () => {
   return (
     <section id="form">
-      <h2>Get In Touch!</h2>
-      <p>Let's Collaborate and Create Something Amazing Together</p>
+      <h2 className='contacth2'>Get In Touch!</h2>
+      <p className='contacth2'>Let's Collaborate and Create Something Amazing Together</p>
       <form action="https://formspree.io/f/mrbzzzrg" method="POST">
         <input type="text" name="name" placeholder="Your Name" className="input-field" />
         <input type="text" name="email" placeholder="Your Email" className="input-field" />
